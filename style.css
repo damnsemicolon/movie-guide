@@ -9,7 +9,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(#e8e8e8 50%, #031140 50%);
+    background: linear-gradient(#e8e8e8 , #031140 80%);
 }
 
 .container {
@@ -26,6 +26,12 @@ body {
     box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
 }
 
+#intro {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #cae6fb;
+}
+
 .search-container {
     display: grid;
     grid-template-columns: 9fr 3fr;
@@ -40,8 +46,8 @@ body {
 
 .search-container input {
     background-color: transparent;
-    border: 1px solid #a0a0a0;
-    color: #fff;
+    border: 1px solid #cae6fb;
+    color: #cae6fb;
     padding: 0.7em;
 }
 
@@ -51,14 +57,14 @@ body {
 
 .search-container button {
     background-color: #031140;
-    color: #a0a0a0;
+    color: #cae6fb;
     border: none;
     cursor: pointer;
     font-weight: 700;
 }
 
 #result {
-    color: #fff;
+    color: #cae6fb;
 }
 
 .info {
@@ -102,7 +108,7 @@ h2 {
     font-size: 0.95em;
     gap: 1em;
     justify-content: center;
-    color: #a0a0a0;
+    color: #cae6fb;
     margin: 0.6em 0;
     font-weight: 300;
 }
@@ -113,7 +119,7 @@ h2 {
 }
 
 .genre div {
-    border: 1px solid #a0a0a0;
+    border: 1px solid #cae6fb;
     font-size: 0.75em;
     padding: 0.4em 1.6em;
     border-radius: 0.4em;
@@ -130,7 +136,7 @@ p {
     font-weight: 300;
     line-height: 1.8em;
     text-align: justify;
-    color: #a0a0a0;
+    color: #cae6fb;
 }
 
 .msg {
